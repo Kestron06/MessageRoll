@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About - Kestron</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Kestron" property="og:title" />
+        <meta content="View info about the Software Developer known as Kestron" property="og:description" />
+        <meta content="https://kestron.software" property="og:url" />
+        <meta content="https://kestron.software/images/kestron.png" property="og:image" />
+        <meta content="#006400" data-react-helmet="true" name="theme-color" />
+        <link href="base.css" media="only screen and (min-width: 480px)" rel="stylesheet"></link>
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css"></link>
+        <style>
+            body{
+                text-align:center;
+            }
+            #about{
+                background-color:#005000;
+                color:#ffffff;
+                width:80%;
+                border-radius:5px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom:1rem;
+                padding:1rem;
+                text-align:left;
+                border-style:solid;
+                border-color:#00D700 #c0b07d #5e4506 #c0b07d;
+            }
+            #about img{
+                float:right;
+                padding:2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="about">
+            <h1 class="centered"><%= t %></h1>
+            <video width="100%" autoplay muted><source src="https://stewbot.kestron.software/roll.mp4" type="video/mp4"></video>
+        </div>
+        <script src="headAndFoot.js"></script>
+    </body>
+</html>

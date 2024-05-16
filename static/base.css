@@ -1,0 +1,84 @@
+#banner{
+    width:100%;
+    text-align:center;
+    background-image:url("images/back.png");
+    background-size:20rem;
+    border-radius:5px;
+}
+.bannerBtn{
+    box-sizing:border-box;
+    font-size: 1.5rem;
+    float:left;
+    width: 25%;
+    transition: 0.3s;
+    text-align:center;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:2px;
+    background-color:#006400;
+    color:#FFFFFF;
+    transition:0.1s;
+    border-style:solid;
+    border-color:#646464 #000000 #000000 #646464;
+}
+.bannerBtn:hover{
+    color:#000000;
+    background-color:#c0b07d;
+    border-color:#000000 #646464 #646464 #000000;
+    transition:0.2s;
+    text-decoration:none;
+}
+#kestronBanner{
+    width:40%;
+}
+#kestronIcon{
+    width:7%;
+    border-radius:10px;
+}
+footer{
+    text-align:center;
+    background-color:#3a2c04;
+    margin-top:auto;
+    color:white;
+    padding:0.5rem;
+    border-radius:5px 5px 0px 0x;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#242424;
+    font-family:monospace;
+    background-image:url("/images/back.png");
+}
+a{
+    color:#c0b07d;
+    text-decoration:none;
+    transition:0.3s;
+}
+a:hover{
+    color:#906803;
+    text-decoration:underline;
+    transition:0.2s;
+}
+.centered{
+    text-align:center;
+}
+img{
+    border-radius:5px;
+}
+#links{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    background-color:#005000;
+    border-radius:20px;
+    padding:50px;
+    color:white;
+    border-style:solid;
+    border-color:#00D700 #c0b07d #5e4506 #c0b07d;
+}
